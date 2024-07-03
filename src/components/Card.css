@@ -1,0 +1,52 @@
+.card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(33% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card .creatorName {
+    font-size: 1.5em;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.card .creatorUrl {
+    font-size: 1.2em;
+    color: #555;
+    margin: 5px 0;
+}
+
+.card .description {
+    font-size: 1em;
+    color: #777;
+    margin: 10px 0;
+}
+
+.pen, .glass {
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.link {
+    display: inline-block;
+    color: #2b7a57;
+}
+
+#creatorName {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+
